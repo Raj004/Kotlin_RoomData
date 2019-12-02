@@ -16,7 +16,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Add new  Book"
+        android:text="Add new Contact"
         android:textColor="@color/colorAccent"
         android:textSize="18sp"
         android:layout_marginRight="16dp"
