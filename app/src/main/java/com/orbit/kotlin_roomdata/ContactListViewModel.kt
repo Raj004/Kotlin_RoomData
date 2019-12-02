@@ -8,9 +8,6 @@ import androidx.lifecycle.LiveData
 import ccom.orbit.kotlin_roomdata.ContactDb
 
 
-/**
- * Created by ThinkSoft on 21/12/2017.
- */
 class ContactListViewModel(application: Application) : AndroidViewModel(application) {
 
     var listContact: LiveData<List<Contact>>

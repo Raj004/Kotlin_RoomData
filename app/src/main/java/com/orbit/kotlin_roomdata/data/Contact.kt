@@ -5,9 +5,7 @@ import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-/**
- * Created by ThinkSoft on 19/12/2017.
- */
+
 @Entity(tableName = "contacts")
 data class Contact(
         @PrimaryKey(autoGenerate = true)

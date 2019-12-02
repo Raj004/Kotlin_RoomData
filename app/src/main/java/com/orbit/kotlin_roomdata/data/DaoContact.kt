@@ -4,9 +4,6 @@ package com.orbit.kotlin_roomdata
 import androidx.lifecycle.LiveData
 import androidx.room.*
 
-/**
- * Created by ThinkSoft on 19/12/2017.
- */
 @Dao
 interface DaoContact {
     @Query("select * from contacts")

@@ -8,9 +8,7 @@ import androidx.room.RoomDatabase
 import com.orbit.kotlin_roomdata.Contact
 import com.orbit.kotlin_roomdata.DaoContact
 
-/**
- * Created by ThinkSoft on 19/12/2017.
- */
+
 @Database(entities = [(Contact::class)], version = 2, exportSchema = false)
 abstract class ContactDb : RoomDatabase() {
     companion object {
